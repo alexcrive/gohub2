@@ -1,0 +1,84 @@
+.get-started__form {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 100%;
+	@media (min-width: 1200px) {
+		position: absolute;
+		width: 90%;
+		margin-top: 50px;
+		margin-left: 42px;
+	}
+	input {	
+		position: relative;
+		border-radius: 5px;
+		background-color: @white;
+		box-shadow: -6.691px 7.431px 20px 0px rgba(212, 212, 250, 0.2);
+		border-color: @white;
+		border-left: 0;
+		border-top: 0;
+		width: 100%;
+		outline: none;
+		font-size: 18px;
+		line-height: 35px;
+		padding-top: 14px;
+	    padding-bottom: 14px;
+	    padding-left: 20px;
+	    padding-right: 140px;
+		@media (min-width: 768px) {
+			font-size: 23px;
+			line-height: 46px;
+			padding-top: 12px;
+			padding-bottom: 16px;
+			padding-left: 36px;
+			padding-right: 160px;
+		}
+		&::-webkit-input-placeholder {
+			color: #8081ab;
+			font-weight: 300;
+    		font-style: normal;
+    	}
+		&::-moz-placeholder {
+			color: #8081ab;
+			font-weight: 300;
+    		font-style: normal;
+    	}
+		&:-moz-placeholder {
+			color: #8081ab;
+			font-weight: 300;
+    		font-style: normal;
+    	} 
+		&:-ms-input-placeholder {
+			color: #8081ab;
+			font-weight: 300;
+    		font-style: normal;
+    	}
+	}
+
+	button {
+		position: absolute;	
+		color: @button_color;
+		font-weight: bold;
+    	font-style: normal;
+    	border: 0;
+    	background: @white;
+    	cursor: pointer;
+    	outline: none;
+    	font-size: 15px;
+	    line-height: 35px;
+	    top: 13px;
+    	right: 18px;
+    	@media (min-width: 768px) {
+			font-size: 15px;
+	    	line-height: 46px;
+	    	top: 13px;
+			right: 35px;
+		}
+    	img {
+    		margin-left: 5px;
+   			margin-bottom: 5px;
+    	}
+	}
+
+}
+

@@ -1,0 +1,84 @@
+html, body {
+	height: 100%;
+	min-width: 320px;
+}
+
+html {
+	font-size: 10px;
+	line-height: 1.4;
+}
+
+body {
+	font-size: 1.6rem; /* 10px * 1.6 = 16px */
+	//font-family:'Noto-Sans';
+	font-family: 'Brown';
+}
+
+/* Переопределение container на >= 1200px */
+.container {
+	@media (min-width: 1200px){
+		max-width: 1265px;
+	}
+}
+
+
+
+
+.block {
+	padding: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	color: @white;
+	background: #3a2;
+	width: 100%;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.block-inside {
+	padding: 5px;
+	font-size: 14px;
+	font-weight: bold;
+	color: @black;
+	background: #a29;
+	width: 100%;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.get-started {
+	background: #fafaff;
+}
+
+.footer {
+	background: #212240;
+}
+
+
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens - adaptive styles bofore 1200px */
+@media only screen and (max-width : 1200px) {
+	
+}
+
+/* Medium Devices, Desktops - adaptive styles bofore 992px */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets - adaptive styles bofore 768px */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones - adaptive styles bofore 480px */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina - adaptive styles bofore 320px */
+@media only screen and (max-width : 320px) {
+
+}
