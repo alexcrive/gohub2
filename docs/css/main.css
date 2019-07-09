@@ -237,7 +237,7 @@ body {
   box-shadow: 0px 0px 10px 1px rgba(33, 34, 64, 0.7);
 }
 .header__button:active {
-  background-color: #7038c4;
+  background-color: #7038c7;
 }
 .header__banner {
   margin-top: 100px;
@@ -323,7 +323,7 @@ body {
   box-shadow: 0px 0px 10px 1px rgba(33, 34, 64, 0.7);
 }
 .get-started-button a:active {
-  background-color: #7038c4;
+  background-color: #7038c7;
 }
 .questions-link {
   display: block;
@@ -1258,7 +1258,7 @@ body {
   box-shadow: 0px 0px 10px 1px rgba(33, 34, 64, 0.7);
 }
 .mobile-menu-button:active {
-  background-color: #7038c4;
+  background-color: #7038c7;
 }
 .mobile-menu-icon {
   position: fixed;
