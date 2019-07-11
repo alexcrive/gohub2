@@ -11,4 +11,4 @@ one-page landing
 * pagescroll2id 
 * font-awesome
 
-#### Preview: https://alexcrive.github.io/gohub2/ 
+### Preview: https://alexcrive.github.io/gohub2/ 
