@@ -5,6 +5,7 @@ one-page landing
 ### include tech:
 
 * HTML/CSS
+* mobile adaptive
 * Bootstrap 4 
 * jquery 
 * LESS 
